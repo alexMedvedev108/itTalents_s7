@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#content {
+	overflow: auto;
+}
+
+header {
+	margin: 1% 1% 0.1% 1%;
+	height: 2em;
+	background: #000000;
+}
+
+article#one, section, article#two {
+	float: left;
+	height: 20em;
+	margin: 1%;
+}
+
+article#one {
+	width: 21.3%;
+	background: darkviolet;
+}
+
+section {
+	width: 51.3%;
+	background: green;
+}
+
+article#two {
+	width: 21.3%;
+	background: red;
+}
+
+footer {
+	margin: 0.1% 1%;
+	clear: both;
+	height: 2em;
+	background: blue;
+}
+
+

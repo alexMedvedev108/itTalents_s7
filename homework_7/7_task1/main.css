@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+	
+header {
+	margin: 1% 0 0 0;
+	height: 5em;
+	background: #006864;
+}
+
+section {
+	margin: 0.5% auto;
+	height: 7em;
+	background: green;
+	width: 88%;
+}
+
+#footer {
+	margin: 0.5% auto;
+	width: 88%;
+}
+
+#foot1, #foot2 {
+	width: 49%;
+	float: left;
+	height: 1em;
+}
+
+#foot1 {
+	margin: 0 1% 1% 0;	
+	background: #9900a3;
+}
+
+#foot2 {
+	margin: 0 0 1% 1%;	
+	background: blue;
+}
+
+
+

@@ -1,0 +1,584 @@
+@CHARSET "UTF-8";
+
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+/******************************************************
+HEADER
+******************************************************/
+
+body {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#mainHeader {
+	width: 100%;
+	background: #1f2324;
+}
+
+#logo{
+	display: inline-block;
+	vertical-align: middle;
+	width: 29%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.9em;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding: 2% 2% 4% 2%;
+}
+
+#logo h1 a {
+	color: white;
+}
+
+#mainHeader nav {
+	display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+	box-sizing: border-box;
+	margin: 0;
+	padding-right: 8%;
+}
+
+#mainHeader nav #topNav li {
+	float: right;
+	box-sizing: border-box;
+	margin-right: 5%;
+	text-transform: uppercase;	
+	font-size: 0.9em;
+	color: #cecece;
+}
+
+nav #topNav li a {
+	color: #cecece;
+}
+
+nav #topNav li a:hover, nav #topNav li a.selected {
+	color: white;
+}
+
+#subHeader {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	box-sizing: border-box;
+	background: #f73a4c;
+	padding: 2%;
+}
+
+#bottomNav li {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+
+#bottomNav li a {
+	color: white;
+}
+
+#bottomNav li a:hover {
+	box-sizing: border-box;
+	color: black;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 7%;
+	background: white;
+}
+
+
+/******************************************************
+MAIN CONTENT
+******************************************************/
+
+/*************************CAROUSEL*/
+img {
+	width: 100%;
+}
+
+.carousel-caption {
+	box-sizing: border-box;
+	padding-bottom: 5%;
+}
+
+.carousel-caption h3 {
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.carousel-caption p {
+	font-size: 2em;
+	color: white;
+	font-weight: 300;
+	box-sizing: border-box;
+	margin-bottom: 3%;
+}
+
+.carBut a {
+	text-transform: uppercase;
+	font-size: 1em;
+	color: white;
+	font-weight: 100;
+	box-sizing: border-box;
+	margin: 0 1%;
+	padding: 2% 4%;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+
+.carBut a:hover {
+	border: 1px solid #f73a4c;
+	border-radius: 50px;
+	background: #f73a4c;
+	color: white;
+}
+
+#carousel-example-generic {
+	margin-bottom: -20px; /*????*/
+	padding: 0;
+}
+
+/*************************RADIO BUTTON LIST*/
+#formList {
+	background-image: url('../assets/imgs/backImages/parallax2.jpg');
+	display: inline-block;
+	width: 100%;
+	margin-bottom: -20px; /*?????*/
+}
+
+h1{
+	text-align: center;
+	font-weight: 700;
+	font-size: 4em;
+	box-sizing: border-box;
+	padding: 3% 0 1% 0;
+	color: white;
+ }
+
+#formList p {
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.3em;
+	box-sizing: border-box;
+	padding: 0 5% 3% 5%;
+	color: white;
+}
+
+form {
+	display: inline-block;
+	width: 100%;
+}
+
+.floatedList {
+	float: left;
+	box-sizing: border-box;
+	margin: 0 2%;
+	padding: 2%;
+	width: 21%;
+}
+
+.floatedList li{
+	margin: 2%;
+}
+
+.floatedList a {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 700;
+	box-sizing: border-box;
+	margin-left: 2%;
+}
+
+.floatedList a:hover {
+	color: #f73a4c;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"]{
+    display:inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #f73a4c;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.but a {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: white;
+	font-weight: 100;
+	box-sizing: border-box;
+	margin-top: 2%;
+	padding: 1.7% 4%;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+
+.but a:hover {
+	border: 1px solid #f73a4c;
+	border-radius: 50px;
+	background: #f73a4c;
+	color: white;
+}
+
+.but {
+	vertical-align: middle;
+}
+
+/*************************More Movies Gallery*/
+#moreMovies {
+	display: inline-block;
+	width: 100%;
+	background: #1f2324;
+	box-sizing: border-box;
+}
+
+div.img {
+    margin: 1%;
+    float: left;
+    width: 23.5%;
+	
+}
+
+#leftImg {
+	margin-left: 0;
+}
+
+#rightImg {
+	margin-right: 0;
+}
+
+
+div.img:hover {
+    
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+	box-sizing: border-box;
+    padding: 4% 4% 1% 4%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+div.descYear {
+	box-sizing: border-box;
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding-bottom: 2%;
+}
+
+.but2 {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+
+.but2 a, .but2 [type="submit"] {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: white;
+	font-weight: 100;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 50px;
+	margin-top: 2%;
+	padding: 1.7% 4%;
+	background: none;
+}
+
+.but2 a:hover, .but2 [type="submit"]:hover{
+	border: 1px solid #f73a4c;
+	border-radius: 50px;
+	background: #f73a4c;
+	color: white;
+}
+
+.hr {
+	border-bottom: 0.5px solid #2f3637;
+	width: 90%;
+	margin: 5% 5% 0 5%;
+}
+
+div.img2 {
+    margin: 1%;
+    float: left;
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+}
+
+div.img2 img {
+    width: 100%;
+    height: auto;  
+}
+
+div.img2:hover {  
+}
+
+.rate {
+	box-sizing: border-box;
+    text-align: center;
+    color: grey;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 2%;
+}
+
+/*************************POPULAR (HOVER ZOOM EFFECT)*/
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+margin-bottom: 3%;
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+#testimonials {
+	background-image: url('../assets/imgs/backImages/parallax3.jpg');
+	margin-top: -20px;;
+}
+
+/*************************TESTIMONIALS CAROUSEL*/
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: white;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/*************************Mail*/
+#mail {
+	background-image: url('../assets/imgs/backImages/parallax2.jpg');
+	box-sizing: border-box;
+	margin-top: -20px;
+	padding-bottom: 3%;
+}
+
+fieldset {
+	display:inline-block;
+	width: 100%;
+}
+
+#usernameInput, #emailInput {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 2%;
+}
+
+input[type="text"] {
+	width: 100%;
+}
+
+#messageInput {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 2% 2% 0 2%;
+}
+
+textarea {
+	width: 100%;
+}
+
+label {
+	color: #555555;
+	font-weight: 300;
+	font-size: 1.2em;
+}
+
+ #map {
+height: 400px;
+width: 100%;
+}
+
+
+
+/******************************************************
+FOOTER
+******************************************************/
+.footerContainer {
+	background: #1f2324;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 3% 0 5% 0;
+}
+
+.social, .footerInfo, .copyright {
+	float: left;
+}
+
+.copyright {
+	width: 23.3%;
+	box-sizing: border-box;
+	padding-left: 1%;
+	text-align: left;
+	font-size: 1.1em;
+	color: #555555;
+	font-weight: 300;
+}
+
+ .footerInfo {
+ 	width: 53.3%;
+ }
+ 
+ .footerInfo h3{
+ 	margin: 0;
+ 	padding:0;
+ 	color: white;
+ 	text-align: center;
+ 	font-weight: 700;
+ 	letter-spacing: 1px;
+ }
+ 
+ .social {
+	width: 23.3%;
+}
+
+.social ul {
+	display: inline-block;
+	width: 100%;
+	padding-right: 30%;
+}
+
+.social ul li {
+	float: right;
+	box-sizing: border-box;
+	margin-right: 5%;
+}
+
+
+ 
+ 

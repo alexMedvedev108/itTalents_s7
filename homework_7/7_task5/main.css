@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+body {
+	
+	width: 50%;
+	margin: 0 auto;
+}
+
+#wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+section {
+	overflow: auto;
+}
+
+/*
+header {
+	margin: 1% auto;
+}
+*/
+
+header h1 {
+	background: #0068aa;
+	color: white;
+	padding: 10px;
+	border-bottom-style: outset;
+}
+
+section h1{
+	margin: 0 0 1% 0;
+}
+
+.inner h3{
+	background: #6eb440;
+	height: 1.2em;
+	padding: 5px;
+	color: white;
+	margin: 0;
+}
+
+.outer {
+	border: 1px solid #6eb440;
+	margin: 1em 0;
+	border: 1px solid #6eb440;
+
+}
+
+.outer p{
+	padding: 5px;
+	margin: 0;
+	font-size:1em;
+}
+
+.outer p.details {
+	color: #9b9b9b;
+	font-style: bold;
+	font-size: 0.9em;
+}
+

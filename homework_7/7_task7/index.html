@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Simple Website Test</title>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+		
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+			type="text/javascript"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+			type="text/javascript"></script>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+			type="text/javascript"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+			type="text/javascript"></script>
+		
+		<script src="https://use.fontawesome.com/37e598f389.js"
+			type="text/javascript"></script>
+		
+		<link rel="stylesheet"
+			href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+		
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900"
+			rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="CSS/custom.css">
+	</head>
+	<body>
+		<!------------------------------------------------------------
+		HEADER
+		------------------------------------------------------------->
+		<header>
+			<div id="mainHeader">
+				<div id="logo">
+					<h1>
+						<a href="./index.html">movies</a>
+					</h1>
+				</div>
+				<nav>
+					<ul id="topNav">
+						<li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+						<li><a href="">contacts</a></li>
+						<li><a href="">news</a></li>
+						<li><a href="">most popular</a></li>
+						<li><a href="">about</a></li>
+						<li><a href="./index.html" class="selected">home</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="subHeader">
+				<ul id="bottomNav">
+					<li><a href="">cinema movies</a></li>
+					<li><a href="">tv series</a></li>
+					<li><a href="">cartoons</a></li>
+					<li><a href="">anime</a></li>
+					<li><a href="">new movies</a></li>
+					<li><a href="">hd movies</a></li>
+				</ul>
+			</div>
+		</header>
+		<div id="main">
+	
+			<!-------------------------------------------------------------
+			 MAIN:CAROUSEL 
+			-------------------------------------------------------------->
+			<div id="carousel-example-generic" class="carousel slide"
+				data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0"
+						class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				</ol>
+	
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="assets/imgs/movies/sponge.jpg" alt="...">
+						<div class="carousel-caption">
+							<h3>The Sponge Bob Movie</h3>
+							<p>«SpongeBob SquarePants takes leave from the town of Bikini
+								Bottom in order to track down King Neptune's stolen crown»</p>
+							<div class="carBut">
+								<a class="btn btn-theme btn-sm btn-min-block" href="#">Learn
+									more</a> <a class="btn btn-theme btn-sm btn-min-block" href="#">Watch
+									Trailer</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/imgs/movies/mad.jpg" alt="...">
+						<div class="carousel-caption">
+							<h3>Mad Max</h3>
+							<p>«In a self-destructing world, a vengeful Australian
+								policeman sets out to stop a violent motorcycle gang»</p>
+							<div class="carBut">
+								<a class="btn btn-theme btn-sm btn-min-block" href="#">Learn
+									more</a> <a class="btn btn-theme btn-sm btn-min-block" href="#">Watch
+									Trailer</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/imgs/movies/godzilla.jpg" alt="...">
+						<div class="carousel-caption">
+							<h3>Godzilla</h3>
+							<p>«The world is beset by the appearance of monstrous
+								creatures, but one of them may be the only one who can save
+								humanity»</p>
+							<div class="carBut">
+								<a class="btn btn-theme btn-sm btn-min-block" href="#">Learn
+									more</a> <a class="btn btn-theme btn-sm btn-min-block" href="#">Watch
+									Trailer</a>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img src="assets/imgs/movies/exmachina.jpg" alt="...">
+						<div class="carousel-caption">
+	
+							<h3>Ex Machina</h3>
+							<p>«To erase the line between man and machine is to obscure
+								the line between men and gods»</p>
+							<div class="carBut">
+								<a class="btn btn-theme btn-sm btn-min-block" href="#">Learn
+									more</a> <a class="btn btn-theme btn-sm btn-min-block" href="#">Watch
+									Trailer</a>
+							</div>
+						</div>
+					</div>
+	
+				</div>
+	
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic"
+					role="button" data-slide="prev"> <span
+					class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a> <a class="right carousel-control" href="#carousel-example-generic"
+					role="button" data-slide="next"> <span
+					class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+	
+			<!-------------------------------------------------------------
+			 MAIN:RADIO BUTTON LIST 
+			 -------------------------------------------------------------->
+			<div id="formList">
+				<h1>Watch your favorite movies online</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetuer adipiscing elit. Praesent
+					vestibulum molestie lacus. Aenean nonummy hendrerit mauris.
+					Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque
+					penatibus et magnis dis parturientmontes nascetur ridiculus mus.
+					Nulla dui. Fusce feugiat ma <br /> lesuada odio. Morbi nunc odio
+					gravida atcursus nec.
+				</p>
+	
+				<form action="">
+					<div class="floatedList">
+						<ul>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="action" /><a href=""> Action</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="adventure" /><a href=""> Adventure</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="animation" /><a href=""> Animation</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="biography" /><a href=""> Biography</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="comedy" /><a href=""> Comedy</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="crime" /><a href=""> Crime</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="documentary" /><a href=""> Documentary</a></li>
+						</ul>
+					</div>
+					<div class="floatedList">
+						<ul>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="drama" /><a href=""> Drama</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="family" /><a href=""> Family</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="fantasy" /><a href=""> Fantasy</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="game-show" /><a href=""> Game-show</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="history" /><a href=""> History</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="horror" /><a href=""> Horror</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="kids" /><a href=""> Kids</a></li>
+						</ul>
+					</div>
+					<div class="floatedList">
+						<ul>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="music" /><a href=""> Music</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="musical" /><a href=""> Musical</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="mystery" /><a href=""> Mystery</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="news" /><a href=""> News</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="romance" /><a href=""> Romance</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="sci-fi" /><a href=""> Sci-Fi</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="short" /><a href=""> Short</a></li>
+						</ul>
+					</div>
+					<div class="floatedList">
+						<ul>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="sport" /><a href=""> Sport</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="thriller" /><a href=""> Thriller</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="war" /><a href=""> War</a></li>
+							<li><input class="checkbox-round" type="checkbox"
+								name="genre" value="western" /><a href=""> Western</a></li>
+						</ul>
+					</div>
+				</form>
+				<div class="but">
+					<p>
+						<a class="btn btn-theme btn-sm btn-min-block" href="#">View all</a>
+					</p>
+				</div>
+			</div>
+			<!-------------------------------------------------------------
+			 MAIN:MORE MOVIES
+			-------------------------------------------------------------->
+			<div id="moreMovies">
+				<h1>More movies</h1>
+	
+				<div class="img" id="leftImg">
+	
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/1.jpg" alt="" width="300" height="200">
+					</a>
+	
+					<div class="desc">Stove and Cellar</div>
+					<div class="descYear">2016</div>
+	
+				</div>
+	
+				<div class="img">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/2.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">The Stormy Turtle</div>
+					<div class="descYear">2017</div>
+				</div>
+	
+				<div class="img">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/3.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">The Cloudy Knife</div>
+					<div class="descYear">2016</div>
+				</div>
+	
+				<div class="img" id="rightImg">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/4.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">Alpha Pineapple</div>
+					<div class="descYear">2014</div>
+				</div>
+	
+				<div class="img" id="leftImg">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/5.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">Foggy Carpet</div>
+					<div class="descYear">1998</div>
+				</div>
+	
+				<div class="img">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/6.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">Cheerful Skunk</div>
+					<div class="descYear">2010</div>
+				</div>
+	
+				<div class="img">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/7.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">Transparent Scarf</div>
+					<div class="descYear">2017</div>
+				</div>
+	
+				<div class="img" id="rightImg">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/8.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">Rainy Gecko</div>
+					<div class="descYear">2009</div>
+				</div>
+	
+				<div class="img" id="leftImg">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/9.jpg" alt="" width="300" height="200">
+					</a>
+					<div class="desc">Muffin Hat</div>
+					<div class="descYear">2012</div>
+				</div>
+	
+				<div class="img">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/10.jpg" alt="" width="300"
+						height="200">
+					</a>
+					<div class="desc">Poof Wonder</div>
+					<div class="descYear">2013</div>
+				</div>
+	
+				<div class="img">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/11.jpg" alt="" width="300"
+						height="200">
+					</a>
+					<div class="desc">Bloat Band-Aid</div>
+					<div class="descYear">2050</div>
+				</div>
+	
+				<div class="img" id="rightImg">
+					<a target="_blank" href=""> <img
+						src="assets/imgs/otherMovies/12.jpg" alt="" width="300"
+						height="200">
+					</a>
+					<div class="desc">Tricky ladder</div>
+					<div class="descYear">2011</div>
+				</div>
+				<div class="but2">
+					<a href="">View more</a>
+				</div>
+				<div class="hr"></div>
+				<!-------------------------------------------------------------
+				MAIN:POPULAR
+				-------------------------------------------------------------->
+				<h1>Popular</h1>
+				<div class="img2" id="leftImg">
+					<div class="hovereffect">
+						<a target="_blank" href=""> <img
+							src="assets/imgs/otherMovies/13.jpg" alt="" width="300"
+							height="200">
+						</a>
+					</div>
+					<div class="desc">Air islands</div>
+					<div class="rate">
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a> <a href="#" class="fa fa-star act"></a>
+						<a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a> <a
+							href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a>
+					</div>
+	
+				</div>
+				<div class="img2">
+					<div class="hovereffect">
+						<a target="_blank" href=""> <img
+							src="assets/imgs/otherMovies/14.jpg" alt="" width="300"
+							height="200">
+						</a>
+					</div>
+					<div class="desc">Colorful mistke</div>
+					<div class="rate">
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a> <a href="#" class="fa fa-star act"></a>
+						<a href="#" class="fa fa-star act"></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a>
+					</div>
+	
+				</div>
+				<div class="img2">
+					<div class="hovereffect">
+						<a target="_blank" href=""> <img
+							src="assets/imgs/otherMovies/15.jpg" alt="" width="300"
+							height="200">
+						</a>
+					</div>
+					<div class="desc">Cookie killer</div>
+					<div class="rate">
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a>
+					</div>
+	
+				</div>
+				<div class="img2">
+					<div class="hovereffect">
+						<a target="_blank" href=""> <img
+							src="assets/imgs/otherMovies/16.jpg" alt="" width="300"
+							height="200">
+						</a>
+					</div>
+					<div class="desc">Banana Shoes</div>
+					<div class="rate">
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a>
+					</div>
+	
+				</div>
+				<div class="img2">
+					<div class="hovereffect">
+						<a target="_blank" href=""> <img
+							src="assets/imgs/otherMovies/17.jpg" alt="" width="300"
+							height="200">
+						</a>
+					</div>
+					<div class="desc">Undeground luche</div>
+					<div class="rate">
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a> <a href="#" class="fa fa-star act"></a>
+						<a href="#" class="fa fa-star act"></a> <a href="#"><i
+							class="fa fa-star-o" aria-hidden="true"></i></a>
+					</div>
+	
+				</div>
+				<div class="img2" id="rightImg">
+					<div class="hovereffect">
+						<a target="_blank" href=""> <img
+							src="assets/imgs/otherMovies/18.jpg" alt="" width="300"
+							height="200">
+						</a>
+					</div>
+					<div class="desc">Yes? No</div>
+					<div class="rate">
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a> <a href="#" class="fa fa-star act"></a>
+						<a href="#" class="fa fa-star act"></a> <a href="#"
+							class="fa fa-star act"></a>
+					</div>
+				</div>
+	
+			</div>
+			<!-------------------------------------------------------------
+			 MAIN:TESTIMONIALS
+			-------------------------------------------------------------->
+			<div id="testimonials">
+				<h1>Testimonials</h1>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12" data-wow-delay="0.2s">
+							<div class="carousel slide" data-ride="carousel"
+								id="quote-carousel">
+								<!-- Bottom Carousel Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#quote-carousel" data-slide-to="0"
+										class="active"><img class="img-responsive "
+										src="assets/imgs/faces/face1.jpg" alt=""></li>
+									<li data-target="#quote-carousel" data-slide-to="1"><img
+										class="img-responsive" src="assets/imgs/faces/face2.jpg" alt="">
+									</li>
+									<li data-target="#quote-carousel" data-slide-to="2"><img
+										class="img-responsive" src="assets/imgs/faces/face3.jpg" alt="">
+									</li>
+								</ol>
+	
+								<!-- Carousel Slides / Quotes -->
+								<div class="carousel-inner text-center">
+	
+									<!-- Quote 1 -->
+									<div class="item active">
+										<blockquote>
+											<div class="row">
+												<div class="col-sm-8 col-sm-offset-2">
+	
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+														elit, sed do eiusmod tempor incididunt ut labore et dolore
+														magna aliqua. Ut enim ad minim veniam, quis nostrud
+														exercitation ullamco laboris nisi ut aliquip ex ea commodo
+														consequat. Duis aute irure dolor in reprehenderit in
+														voluptate velit esse cillum dolore eu fugiat nulla
+														pariatur. !</p>
+													<small>Someone famous</small>
+												</div>
+											</div>
+										</blockquote>
+									</div>
+									<!-- Quote 2 -->
+									<div class="item">
+										<blockquote>
+											<div class="row">
+												<div class="col-sm-8 col-sm-offset-2">
+	
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+														elit, sed do eiusmod tempor incididunt ut labore et dolore
+														magna aliqua. Ut enim ad minim veniam, quis nostrud
+														exercitation ullamco laboris nisi ut aliquip ex ea commodo
+														consequat. Duis aute irure dolor in reprehenderit in
+														voluptate velit esse cillum dolore eu fugiat nulla
+														pariatur.</p>
+													<small>Someone famous</small>
+												</div>
+											</div>
+										</blockquote>
+									</div>
+									<!-- Quote 3 -->
+									<div class="item">
+										<blockquote>
+											<div class="row">
+												<div class="col-sm-8 col-sm-offset-2">
+	
+													<p>Lorem ipsum dolor sit amet, consectetur adipiscing
+														elit, sed do eiusmod tempor incididunt ut labore et dolore
+														magna aliqua. Ut enim ad minim veniam, quis nostrud
+														exercitation ullamco laboris nisi ut aliquip ex ea commodo
+														consequat. Duis aute irure dolor in reprehenderit in
+														voluptate velit esse cillum dolore eu fugiat nulla
+														pariatur. .</p>
+													<small>Someone famous</small>
+												</div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+	
+								<!-- Carousel Buttons Next/Prev -->
+								<a data-slide="prev" href="#quote-carousel"
+									class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+								<a data-slide="next" href="#quote-carousel"
+									class="right carousel-control"><i
+									class="fa fa-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-------------------------------------------------------------
+			MAIN:MAIL 
+			-------------------------------------------------------------->
+			<div id="mail">
+				<h1>Mail us</h1>
+				<form action="" method="post">
+					<fieldset>
+						<div id="usernameInput">
+							<label>Your Name</label><br> <input type="text"
+								name="username" value="" />
+						</div>
+						<div id="emailInput">
+							<label>Your Email</label><br> <input type="text" name="email"
+								value="" />
+						</div>
+						<div id="messageInput">
+							<textarea name="messgae" cols="" rows="">Your message</textarea>
+						</div>
+						<div class="but2">
+							<input type="submit" value="send" />
+						</div>
+					</fieldset>
+				</form>
+			</div>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3716.5361286573157!2d-157.85095073615523!3d21.32933812320186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sbg!4v1487017704888"
+				width="100%" height="450" frameborder="0" style="border: 0"
+				allowfullscreen></iframe>
+			<!-------------------------------------------------------------
+			FOOTER 
+			-------------------------------------------------------------->	
+			<footer>
+				<div class="footerContainer">
+					<div class="copyright">
+						Movies &copy; 2017 Consectetur adipisicing<br /> Sapiente culpa
+						expedita<br /> delectus inventore
+					</div>
+					<div class="footerInfo">
+						<h3>Consectetur? Impedit explicabo: (012) 123-456-7890</h3>
+					</div>
+					<div class="social">
+						<ul class="inline-list">
+							<li><a class="fa fa-google-plus fa-2x" href="#"></a></li>
+							<li><a class="fa fa-pinterest fa-2x" href="#"></a></li>
+							<li><a class="fa fa-twitter fa-2x" href="#"></a></li>
+							<li><a class="fa fa-facebook fa-2x" href="#"></a></li>
+							<li><a class="fa fa-instagram fa-2x" href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
